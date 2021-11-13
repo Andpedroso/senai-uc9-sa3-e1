@@ -475,13 +475,7 @@ footer {
     }
 
     .menu {
-        display: none;
-        flex-direction: column;
         width: 300px;
-        background-color: black;
-        position: absolute;
-        top: 20px;
-        right: 40px;
     }
 
     #carrossel img{
@@ -495,7 +489,7 @@ footer {
 
     .menu a {
         text-align: center;
-        font-size: 40px;
+        font-size: 20px;
         padding: 15px;
     }
 
@@ -530,79 +524,3 @@ footer {
         font-size: 50px;
     }
 }
-
-/* @media screen and (max-width: 1200px) {
-    .container-grid {
-        width: 90%;
-    }
-
-    .menu {
-        width: 460px;
-    }
-
-    .menu a {
-        font-size: 16px;
-    }
-
-    .logo {
-        width: 200px;
-    }
-
-    .container-grid {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .itens-banner img {
-        width: 500px;
-    }
-
-    .divisor1 {
-        background-color: black;
-        height: 100px;
-        justify-content: center;
-    }
-
-    .itens-banner {
-        height: 80%;
-    }
-
-    .texto-banner h1 {
-        font-size: 50px;
-        
-    }
-    
-    .texto-banner p {
-        font-size: 20px;
-    }
-    
-    .texto-banner a {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .barras {
-        display: inline-block;
-    }
-
-    .menu {
-        display: none;
-        flex-direction: column;
-        width: 300px;
-        background-color: black;
-        position: absolute;
-        top: 20px;
-        right: 40px;
-    }
-
-    .menu a {
-        text-align: center;
-        font-size: 40px;
-        padding: 15px;
-    }
-
-    .posicionamento-header {
-        position: relative;
-    }
-} */
